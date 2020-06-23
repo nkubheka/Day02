@@ -1,31 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nkubheka <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/06/19 13:04:31 by nkubheka          #+#    #+#             */
-/*   Updated: 2020/06/21 12:33:04 by nkubheka         ###   ########.fr       */
+/*   Created: 2020/06/19 13:44:09 by nkubheka          #+#    #+#             */
+/*   Updated: 2020/06/23 10:26:10 by nkubheka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include <stdio.h>
 
-void ft_print_reverse_alphabet(void)
+int main()
 {
-	char letter;
+	int num;
+	printf ("Please enter a number!" );
 
-	letter = 'z';
-	while  (letter >= 'a')
+
+	if (num == 0)
 	{
-		putchar(letter);
-		letter--;
+		if (num == 0)
+			printf("Number Entered is: \n");
+		else
+			printf("N");
 	}
-}
-int main(void)
-{
-	ft_print_reverse_alphabet();
+	else
+		printf("P");
+
 	return 0;
 }
